@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory
+        android:layout="@layout/setting_personal_infos"
+        android:title="个人资料设置" >
+
+        <!--
+             <EditTextPreference
+            android:key="@string/setting_edittextpreference_nikename"
+            android:title="昵称" />
+        -->
+        <PreferenceScreen
+            android:summary="点击设置昵称"
+            android:title="昵称" >
+            <intent
+                android:targetClass="com.ztspeech.simutalk2.trans.SetNickNameActivity"
+                android:targetPackage="com.ztspeech.simutalk2" />
+        </PreferenceScreen>
+        <PreferenceScreen
+            android:summary="点击设置个人头像"
+            android:title="头像" >
+            <intent
+                android:targetClass="com.ztspeech.simutalk2.trans.SetHeadProtraitActivity"
+                android:targetPackage="com.ztspeech.simutalk2" />
+        </PreferenceScreen>
+    </PreferenceCategory>
+    
+    <PreferenceCategory
+        android:layout="@layout/setting_assist"
+        android:title="辅助功能设置" >
+        <PreferenceScreen
+            android:summary="您可以选择适合您的字体大小"
+            android:title="字体大小设置" >
+            <intent
+                android:targetClass="com.ztspeech.simutalk2.trans.SetFrontSizeActivity"
+                android:targetPackage="com.ztspeech.simutalk2" />
+        </PreferenceScreen>
+                
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="@string/setting_checkboxpreference_longclickrecord"
+            android:summary="开启该项需长按录音，关闭后单击即可录音"
+            android:title="按住说话" />
+        
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="@string/setting_checkboxpreference_translate"
+            android:summary="开启该项才能开启翻译功能，如果不开启仅将您录入的语音转换成文字"
+            android:title="翻译" />
+        
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="@string/setting_checkboxpreference_translatetalk"
+            android:summary="开启对话翻译功能，与好友聊天使用语音录入时可以同时将翻译结果发给对方"
+            android:title="对话翻译" />
+        
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="@string/setting_checkboxpreference_autojump"
+            android:summary="开启该项程序启动时直接打开翻译界面"
+            android:title="启动打开翻译界面" />
+ 
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="@string/setting_checkboxpreference_run"
+            android:summary="后台接收友缘问答消息通知"
+            android:title="后台接收通知 "/>    
+		 <PreferenceScreen
+	            android:summary="点击绑定或者解绑微博账号"
+	            android:title="微博账号设置" >
+	            <intent
+	                android:targetClass="com.ztspeech.simutalk2.trans.SetWeiboCountBinderActivity"
+	                android:targetPackage="com.ztspeech.simutalk2" />
+	        </PreferenceScreen>     
+    </PreferenceCategory>
+    
+   <PreferenceCategory
+        android:layout="@layout/setting_tts"
+        android:title="TTS设置" >
+         <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="@string/setting_checkboxpreference_autoplay"
+            android:summary="开启该项翻译后自动播放结果，关闭后可通过点击播放结果"
+            android:title="自动播放" />                   
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="@string/setting_checkboxpreference_tts"
+            android:summary="优先使用本地语言合成"
+            android:title="优先使用本机TTS" />
+
+        <PreferenceScreen
+            android:summary="点击选择音色"
+            android:title="TTS音色" >
+            <intent
+                android:targetClass="com.ztspeech.simutalk2.trans.SetTtsSoundActivity"
+                android:targetPackage="com.ztspeech.simutalk2" />
+        </PreferenceScreen>
+    
+        <PreferenceScreen
+            android:summary="您可以选择适合您的语速"
+            android:title="TTS语速" >
+            <intent
+                android:targetClass="com.ztspeech.simutalk2.dictionary.activity.SettingTTSspeedActivity"
+                android:targetPackage="com.ztspeech.simutalk2" />
+        </PreferenceScreen>
+    </PreferenceCategory>
+        
+
+    <PreferenceCategory
+        android:layout="@layout/setting_help"
+        android:title="帮助" >
+        <PreferenceScreen
+            android:summary="使用方法介绍"
+            android:title="帮助说明" >
+            <intent
+                android:targetClass="com.ztspeech.simutalk2.trans.HelpActivity"
+                android:targetPackage="com.ztspeech.simutalk2" />
+        </PreferenceScreen>
+        <PreferenceScreen
+            android:summary="请把您的宝贵意见告诉我们"
+            android:title="意见反馈" >
+            <intent
+                android:targetClass="com.ztspeech.simutalk2.trans.UserPropose"
+                android:targetPackage="com.ztspeech.simutalk2" />
+        </PreferenceScreen>
+        <PreferenceScreen
+            android:summary="关于紫冬口译"
+            android:title="关于" >
+            <intent
+                android:targetClass="com.ztspeech.simutalk2.trans.AboutActivity"
+                android:targetPackage="com.ztspeech.simutalk2" />
+        </PreferenceScreen>
+    </PreferenceCategory>
+
+</PreferenceScreen>

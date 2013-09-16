@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+   android:layout_width="fill_parent"
+   android:layout_height="wrap_content" 
+   android:descendantFocusability="blocksDescendants"
+   android:paddingTop="5dip"
+   android:orientation="vertical" >
+ 	 
+   <LinearLayout
+	      android:id="@+id/llSpeak"
+	      android:layout_width="fill_parent"
+	      android:layout_height="wrap_content"
+	      android:background="@drawable/trans_font_bg_ce_2more_up_normal" >
+		 <ImageButton
+	        	android:id="@+id/btnPlaySpeak"
+		        android:layout_width="wrap_content"
+		        android:layout_height="fill_parent"
+		        android:layout_marginLeft="5dip"
+		        android:layout_gravity="top"
+		        android:src="@drawable/trans_icon_speak"
+		        android:background="@null"
+	        	android:contentDescription="@null"
+		        android:textSize="10sp" /> 
+	        <TextView
+	           android:id="@+id/textSpeak"
+	           android:layout_width="wrap_content"
+	           android:layout_height="wrap_content"
+	           android:layout_weight="1"
+	           android:text="A"
+	           android:textSize="20dp" />	     	      
+   </LinearLayout>	
+		      
+   <LinearLayout
+	      android:id="@+id/llTrans"
+	      android:layout_width="fill_parent"
+	      android:layout_height="wrap_content"
+	      android:background="@drawable/trans_font_bg_ce_2more_down_normal" >
+	 <ImageButton
+        	android:id="@+id/btnPlayTrans"
+	        android:layout_width="wrap_content"
+	        android:layout_height="fill_parent"
+	        android:layout_marginLeft="5dip"
+	        android:layout_gravity="top"
+	        android:src="@drawable/trans_icon_speak"
+	        android:background="@null"
+        	android:contentDescription="@null"
+	        android:textSize="10sp" /> 
+        <TextView
+           android:id="@+id/textTrans"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_weight="1"
+           android:text="A"
+           android:textSize="20dp" />	     	      
+   </LinearLayout>	
+   
+</LinearLayout>		
+

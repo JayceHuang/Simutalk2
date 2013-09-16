@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.ztspeech.simutalk2"
+    android:versionCode="146"
+    android:versionName="2.2.50" >
+
+    
+    <uses-sdk android:minSdkVersion="7"/>
+
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"></uses-permission>
+	<uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"></uses-permission>
+	<uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS"></uses-permission>
+	<uses-permission android:name="android.permission.READ_LOGS"></uses-permission>
+	<uses-permission android:name="android.permission.VIBRATE"></uses-permission>
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <application
+        android:name="com.ztspeech.simutalk2.qa.Location"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".qa.MainActivity"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+     
+	    <service android:name="com.ztspeech.simutalk2.qa.MsgService" android:label="紫冬口译消息服务">
+            <intent-filter>
+                <action android:name=".qa.MsgService"></action>
+            </intent-filter>
+        </service>
+		
+	    <service android:name="com.baidu.location.f" android:enabled="true"
+			android:process=":remote">
+		</service>
+        <activity
+            android:name=".qa.MainTabActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+                
+        
+        <activity
+            android:name=".qa.FindUserActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+                
+        <activity
+            android:name=".trans.InterpretActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        
+        <activity
+            android:name=".trans.HelpActivity"
+            android:theme="@style/activityTitlebar"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity android:name=".trans.LoginActivity"
+          	android:label="@string/lbl_set_name"
+          	android:theme="@style/dialogw"
+          	android:screenOrientation="portrait"
+          	android:configChanges="orientation" />
+        <activity
+            android:name=".qa.WaitingActivity"  
+            android:theme="@style/dialogw"          
+            android:label="@string/waiting_title" >
+        </activity>  
+                
+        <activity
+          android:name=".qa.InteractionActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".qa.MsgGroupListActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".qa.UserStateActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".qa.FriendActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        
+        <activity
+            android:name=".qa.AskQuestionActivity"
+            android:theme="@style/dialogw"
+            android:screenOrientation="portrait" >
+        </activity>
+        
+        <activity
+            android:name=".qa.GetQuestionActivity"
+            android:theme="@android:style/Theme.Dialog"
+            android:screenOrientation="portrait" >
+        </activity>
+        
+        <activity android:name=".qa.SolveQuestionActivity"
+            android:theme="@android:style/Theme.Dialog"
+            android:screenOrientation="portrait" >
+        </activity>        
+     
+        <activity
+  			android:name=".qa.MessageActivity"
+            android:screenOrientation="portrait" >
+        </activity>   
+                
+        <activity
+            android:name=".dictionary.activity.ChildCategroyActivity"
+            android:theme="@style/activityTitlebar"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".dictionary.activity.WordsAutoCompletedActivity"
+            android:theme="@style/activityTitlebar"
+            android:screenOrientation="portrait"
+            android:launchMode="singleTask" >
+        </activity>
+        <activity
+            android:name=".dictionary.activity.ShowWhiteBordActivity"
+            android:theme="@style/activityTitlebar" >
+        </activity>
+        <activity
+            android:name=".dictionary.activity.SearchActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".dictionary.activity.WordsActivity"
+            android:theme="@style/activityTitlebar"
+            android:screenOrientation="portrait" >
+        </activity>
+         <activity
+            android:name=".dictionary.activity.ResultActivity"
+            android:theme="@style/activityTitlebar"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".dictionary.activity.KouyiRecordActivity"
+            android:theme="@style/activityTitlebar"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".dictionary.activity.CollectedWordsActivity"
+            android:theme="@style/activityTitlebar"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".dictionary.activity.SettingActivity" android:theme="@style/perference_set_activity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".trans.SetHeadProtraitActivity"
+            android:theme="@style/headActivityTitlebar"
+            android:screenOrientation="portrait" >
+        </activity>
+         <activity
+            android:name=".trans.SetNickNameActivity"
+            android:theme="@style/headActivityTitlebar"
+            android:screenOrientation="portrait" >
+        </activity>
+         <activity
+            android:name=".trans.SetTranslanguageActivity"
+            android:theme="@style/headActivityTitlebar"
+            android:screenOrientation="portrait" >
+        </activity>
+         <activity
+            android:name=".trans.SetTtsSoundActivity"
+            android:theme="@style/headActivityTitlebar"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".dictionary.activity.SettingTTSspeedActivity"
+            android:theme="@style/headActivityTitlebar"
+            android:label="TTS语速设置"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".trans.UserPropose"
+            android:theme="@style/headActivityTitlebar"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".trans.AboutActivity"
+            android:theme="@style/headActivityTitlebar"
+            android:screenOrientation="portrait" >
+        </activity>
+         <activity
+            android:name=".trans.SetFrontSizeActivity"
+            android:theme="@style/headActivityTitlebar"
+            android:screenOrientation="portrait" >
+        </activity>
+         <activity
+            android:name=".trans.SetWeiboCountBinderActivity"
+            android:theme="@style/headActivityTitlebar"
+            android:screenOrientation="portrait" >
+        </activity>
+         <activity
+            android:name=".dictionary.activity.SkinActivity"
+            android:theme="@style/activityTitlebar"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.tencent.weibo.webview.OAuthV1AuthorizeWebView"
+            android:theme="@android:style/Animation.Dialog"
+            android:label="腾讯微博" >
+        </activity>
+        <activity
+            android:name=".weibo.EditContent"
+            android:theme="@android:style/Theme.Dialog" >
+        </activity>
+        
+        <service
+			android:name=".qa.message.ProcessService">
+		</service>
+		
+        <!-- 微信插件 -->
+        
+        <activity 
+             android:theme="@*android:style/Theme.Translucent.NoTitleBar" 
+             android:name=".wxapi.WXEntryActivity"
+             android:exported="true"></activity>
+        
+        
+       <activity 
+            android:name=".weixinchat.WchatActivity"
+            android:launchMode="singleTask"
+            android:theme="@style/dialogw"
+            android:screenOrientation="portrait"
+            android:configChanges="keyboardHidden|orientation" 
+            android:windowSoftInputMode="stateAlwaysHidden|adjustResize"
+           
+            ></activity>
+         <receiver
+            android:name=".weixinchat.AppRegister"
+            android:permission="com.tencent.mm.plugin.permission.SEND" >
+            <intent-filter>
+                <action android:name="com.tencent.mm.plugin.openapi.Intent.ACTION_REFRESH_WXAPP" />
+            </intent-filter>
+        </receiver>
+    </application>
+
+</manifest>

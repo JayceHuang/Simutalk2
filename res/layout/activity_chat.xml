@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/weixin_dlg_bg" >
+
+    <RelativeLayout
+        android:id="@+id/frame_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="40dip"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/weixin_dlg_top" >
+
+        <TextView
+            android:id="@+id/tvQuestionTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:text=""
+            android:textColor="#FFFFFFFF"
+            android:textSize="20sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/edtbg"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/frame_layout"
+        
+        android:background="@drawable/weixin_dlg_edtbg" >
+
+        <EditText
+            android:id="@+id/editMsg"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+			android:layout_marginTop="10dip"
+			android:layout_marginLeft="8dip"
+            android:background="@drawable/weixin_dlg_edt"
+            android:gravity="top"
+            android:lines="3" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/button_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="45dip"
+        android:layout_below="@+id/edtbg"
+        android:background="@drawable/weixin_dlg_bottom" >
+
+        <Button
+            android:id="@+id/btnSend"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dip"
+            android:background="@drawable/weixin_dlg_sub" />
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center" >
+
+            <Button
+                android:id="@+id/btnSpeak"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:background="@drawable/weixin_dlg_btnr" />
+        </RelativeLayout>
+
+        <Button
+            android:id="@+id/btnCancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dip"
+            android:background="@drawable/weixin_dlg_cancel" />
+
+    </RelativeLayout>
+    <!-- android:layout_gravity="center" -->
+
+    <RelativeLayout
+        android:id="@+id/record_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="45dip"
+        android:layout_alignTop="@id/button_layout"
+        android:layout_below="@id/editMsg"
+        android:background="@drawable/weixin_dlg_bottom"
+        android:visibility="gone" >
+
+        <Button
+            android:id="@+id/btnSend1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dip"
+            android:background="@drawable/weixin_dlg_sub"
+            android:visibility="invisible" />
+        
+        <Button
+            android:id="@+id/btn_cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dip"
+            android:background="@drawable/weixin_dlg_cancel"/>
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_centerVertical="true"
+            android:layout_gravity="center" >
+            <ImageButton
+                android:id="@+id/btn_record"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:background="@drawable/weixin_dlg_btnr" />
+
+            <ImageView
+                android:id="@+id/imageviewanim"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:background="@drawable/recognizer_wait_anim_new"
+                android:visibility="gone" />
+
+            <ImageView
+                android:id="@+id/imagenovoiceanim"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:background="@drawable/record_r11_c1"
+                android:visibility="gone" />
+
+            <!--  
+            <TextView
+                android:id="@+id/text_status"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:text="@string/trans_btn_record"
+                android:textColor="@android:color/white"
+                android:visibility="gone" />
+            -->
+        </RelativeLayout>
+    </RelativeLayout>
+
+</RelativeLayout>

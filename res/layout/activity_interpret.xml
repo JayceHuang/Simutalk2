@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/interpret_parent"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/trans_cen_bg"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:id="@+id/linearLayoutBottom"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1" >
+
+            <ListView
+                android:id="@+id/scrollView1"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginTop="5dp"
+                android:cacheColorHint="#00000000"
+                android:listSelector="#00000000"
+                android:dividerHeight="0dp"
+                android:stackFromBottom="false" >
+            </ListView>
+        </LinearLayout>
+
+       <LinearLayout
+            android:id="@+id/control_layout"
+            android:layout_width="fill_parent"
+            android:layout_height="60dp"
+            android:background="@drawable/trans_bottorm_bg" >
+
+            <Button
+                android:id="@+id/btn_change_input"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:background="@drawable/trans_bottorm_button_pen" />
+
+            <FrameLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1" >
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent" >
+
+                    <EditText
+                        android:id="@+id/edit_input_text"
+                        android:layout_width="fill_parent"
+                        android:layout_height="52dip"
+                        android:layout_marginTop="4dip"
+                        android:layout_weight="1"
+                        android:background="@drawable/trans_bottorm_button_translation01"
+                        android:maxLength="256"
+                        android:maxLines="1"
+                        android:singleLine="true" >
+                    </EditText>
+
+                    <Button
+                        android:id="@+id/btn_send_input"
+                        android:layout_width="wrap_content"
+                        android:layout_height="fill_parent"
+                        android:background="@drawable/trans_bottorm_button_translation02"
+                        android:text="@string/btn_trans"
+                        android:textColor="#FFFFFFFF"
+                        android:textSize="18dp" />
+                </LinearLayout>
+
+                <RelativeLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_gravity="center" >
+
+                    <ImageButton
+                        android:id="@+id/m_btn_record"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:background="@drawable/trans_bottorm_button_speak" />
+                </RelativeLayout>
+            </FrameLayout>
+
+            <Button
+                android:id="@+id/btn_change_language"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:background="@drawable/trans_bottorm_button_ce"
+                android:textColor="#FFFFFFFF"
+                android:textSize="18dp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <!-- <RelativeLayout
+        android:id="@+id/record_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_gravity="center"
+        android:visibility="gone" >
+        <LinearLayout
+            android:id="@+id/control_layout"
+            android:layout_width="fill_parent"
+            android:layout_height="60dp"
+            android:background="@drawable/trans_bottorm_bg" >
+
+            <Button
+                android:id="@+id/btn_ok"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:background="@drawable/trans_bottorm_button_pen"
+                android:visibility="invisible" />
+
+            <FrameLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1" >
+                <RelativeLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_gravity="center" >
+
+                    <ImageButton
+                        android:id="@+id/btn_bg"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:background="@drawable/trans_bottorm_button_recording1" />
+
+                    <ImageButton
+                        android:id="@+id/btn_record"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:background="@drawable/trans_bottorm_button_speak" />
+
+                    <ImageView
+                        android:id="@+id/imageviewanim"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:background="@drawable/recognizer_wait_anim"
+                        android:visibility="gone" />
+
+                    <ImageView
+                        android:id="@+id/imagenovoiceanim"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:background="@drawable/record_no_voice_anim"
+                        android:visibility="gone" />
+
+                    <TextView
+                        android:id="@+id/text_status"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentTop="true"
+                        android:layout_centerHorizontal="true"
+                        android:text="@string/trans_btn_record"
+                        android:textColor="@android:color/white"
+                        android:visibility="gone" />
+                </RelativeLayout>
+            </FrameLayout>
+
+            <Button
+                android:id="@+id/btn_cancel"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:background="@drawable/trans_bottorm_button_01"
+                android:textColor="#FFFFFFFF"
+                android:textSize="18dp"
+                android:visibility="visible" />
+        </LinearLayout>
+    </RelativeLayout> -->
+
+</RelativeLayout>

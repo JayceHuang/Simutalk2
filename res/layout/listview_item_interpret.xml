@@ -1,0 +1,132 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:descendantFocusability="blocksDescendants" >
+
+    <RelativeLayout
+        android:id="@+id/rlMiddle"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_toLeftOf="@+id/rlRight"
+        android:layout_toRightOf="@+id/rlLeft" >
+
+        <RelativeLayout
+            android:id="@+id/llSpeak"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/trans_font_bg_ce_2more_up_normal" >
+
+            <TextView
+                android:id="@+id/textSpeak"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/btnPlaySpeak"
+                android:layout_marginLeft="-30dip"
+                android:layout_toRightOf="@+id/btnPlaySpeak"
+                android:layout_weight="1"
+                android:paddingBottom="5dip"
+                android:paddingRight="15dip"
+                android:paddingTop="3dip"
+                android:text="TextView"
+                android:textSize="20sp" />
+
+            <ImageButton
+                android:id="@+id/btnPlaySpeak"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:background="@null"
+                android:contentDescription="@null"
+                android:paddingBottom="5dip"
+                android:paddingLeft="5dip"
+                android:paddingRight="30dip"
+                android:paddingTop="5dip"
+                android:src="@drawable/trans_icon_speak" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/llTrans"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/llSpeak"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/trans_font_bg_ce_2more_down_normal" >
+
+            <TextView
+                android:id="@+id/textTrans"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/btnPlayTrans"
+                android:layout_marginLeft="-30dip"
+                android:paddingRight="15dip"
+                android:paddingBottom="5dip"
+                android:layout_toRightOf="@+id/btnPlayTrans"
+                android:text="TextView"
+                android:textSize="20sp" />
+
+            <ImageButton
+                android:id="@+id/btnPlayTrans"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:background="@null"
+                android:contentDescription="@null"
+                android:layout_marginTop="3dip"
+                android:paddingBottom="5dip"
+                android:paddingLeft="5dip"
+                android:paddingRight="30dip"
+                android:src="@drawable/trans_icon_speak" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/lFlag"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/llTrans"
+            android:layout_alignRight="@+id/llTrans"
+            android:layout_marginBottom="16dip"
+            android:layout_marginRight="8dip"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:id="@+id/imgFlag"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/trans_pop_good"
+                android:visibility="gone" />
+
+            <RelativeLayout
+                android:id="@+id/rFlag1"
+                android:layout_width="5dip"
+                android:layout_height="wrap_content" >
+            </RelativeLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/lFlagOnlyR"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/llSpeak"
+            android:layout_alignRight="@+id/llSpeak"
+            android:layout_marginBottom="16dip"
+            android:layout_marginRight="8dip"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:id="@+id/imgFlagOnlyR"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/trans_pop_bad"
+                android:visibility="gone" />
+            <RelativeLayout
+                android:id="@+id/rFlag2"
+                android:layout_width="5dip"
+                android:layout_height="wrap_content" >
+            </RelativeLayout>
+        </LinearLayout>
+    </RelativeLayout>
+
+</RelativeLayout>

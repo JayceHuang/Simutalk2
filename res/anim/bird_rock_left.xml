@@ -1,0 +1,37 @@
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android"
+    android:oneshot="true" >
+
+   
+    <item
+        android:drawable="@drawable/no2_bird_left_b_3"
+        android:duration="200"/>
+    <item
+        android:drawable="@drawable/no2_bird_left_b_2"
+        android:duration="200"/>
+    <item
+        android:drawable="@drawable/no2_bird_left_b_3"
+        android:duration="200"/>
+    <item
+        android:drawable="@drawable/no2_bird_left_b_2"
+        android:duration="200"/>
+    <item
+        android:drawable="@drawable/no2_bird_left_b_3"
+        android:duration="200"/>
+    <item
+        android:drawable="@drawable/no2_bird_left_b_2"
+        android:duration="200"/>
+    <item
+        android:drawable="@drawable/no2_bird_left_b_3"
+        android:duration="200"/>
+    <item
+        android:drawable="@drawable/no2_bird_left_b_2"
+        android:duration="200"/>
+     <item
+        android:drawable="@drawable/no2_bird_left_b_3"
+        android:duration="200"/>
+    <item
+        android:drawable="@drawable/no2_bird_left_b_2"
+        android:duration="200"/>
+    
+
+</animation-list>

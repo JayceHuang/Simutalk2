@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="3dp"    
+    android:layout_marginLeft="4dp"
+    android:layout_marginRight="3dp"
+    android:paddingTop="5dp"
+    android:background="@drawable/qa_you_qa_min_friend_bg"
+    android:orientation="horizontal" >    	   
+    
+   	<ImageView
+        android:id="@+id/layoutUser1"
+        android:layout_width="41dp"
+        android:layout_height="41dp"
+        android:src="@drawable/qa_you_qa_min_friend_head" />
+
+   
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:orientation="vertical" >	    
+   			        
+        <TextView
+           android:id="@+id/tvName"
+           android:layout_width="fill_parent"
+           android:layout_height="wrap_content"
+           android:textColor= "#FF000000"
+           android:text=""
+           android:textStyle="bold"
+           android:textSize="18dp" />	
+	 
+		<LinearLayout
+		    android:id="@+id/layoutMsgMiddle"
+		    android:layout_width="fill_parent"
+		    android:layout_height="wrap_content">
+	        
+	       <TextView
+	           android:id="@+id/tvMsgText"
+	           android:layout_width="fill_parent"
+	           android:layout_height="wrap_content"
+	           android:text="Small Text"
+	           android:layout_weight="0.2"
+	           android:textColor= "#FF888888"
+	           android:textSize="12dp" /> 		       
+	        
+			<TextView
+	            android:id="@+id/tvMsgCount"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_marginRight="0dp"
+	            android:background="@drawable/talk_shuliang"
+	            android:gravity="center|top"
+	            android:text="5"
+	            android:textStyle="bold" />						    
+	    </LinearLayout>
+	    <TextView
+           	android:id="@+id/tvMsgTime"
+           	android:layout_width="fill_parent"
+           	android:layout_height="wrap_content"
+           	android:textColor= "#FF808080"
+           	android:text="时间"
+           	android:textSize="12dp" 
+            android:gravity="right"
+            android:layout_marginRight="0dp"/>		  	    	
+    </LinearLayout>  
+    
+</LinearLayout>
+

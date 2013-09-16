@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/trans_pop_more_bg"
+    android:layout_gravity="center">
+
+    <!--
+    <ProgressBar
+        android:id="@+id/progressBar1"
+        style="@style/mydialog"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_gravity="center" 
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_gravity="center"
+        android:textColor="#ffffff"
+        android:layout_toRightOf="@id/progressBar1"
+        android:text="@string/loading"/>
+    -->
+
+    <RelativeLayout
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:layout_centerInParent="true"
+
+        android:gravity="center" >
+
+        <ImageView
+            android:id="@+id/wloadinganim"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/com_pop_wait" />
+
+        <TextView
+            android:id="@+id/tv_word"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/wloadinganim"
+            android:layout_alignTop="@id/wloadinganim"
+            android:layout_marginLeft="20dp"
+            android:layout_toRightOf="@id/wloadinganim"
+            android:gravity="center"
+            android:textColor="#000000"
+            android:text="@string/loading"
+            android:textSize="15sp" />
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/btnCancel"
+        android:layout_width="90dp"
+        android:layout_height="30dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="1dp"
+        android:text="@string/waitting_btn_cancel"
+        android:visibility="gone" />
+
+</RelativeLayout>

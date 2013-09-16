@@ -1,0 +1,159 @@
+# view AndroidManifest.xml #generated:42
+-keep class com.baidu.location.f { <init>(...); }
+
+# view land\res/layout-land/renren_sdk_create_album.xml #generated:37
+# view land\res/layout-land/renren_sdk_status_pub.xml #generated:42
+# view land\res/layout-land/renren_sdk_upload_photo.xml #generated:42
+# view res/layout/renren_sdk_create_album.xml #generated:34
+# view res/layout/renren_sdk_status_pub.xml #generated:27
+# view res/layout/renren_sdk_upload_photo.xml #generated:33
+-keep class com.renren.api.connect.android.view.ProfileNameView { <init>(...); }
+
+# view land\res/layout-land/renren_sdk_create_album.xml #generated:28
+# view land\res/layout-land/renren_sdk_status_pub.xml #generated:33
+# view land\res/layout-land/renren_sdk_upload_photo.xml #generated:29
+-keep class com.renren.api.connect.android.view.ProfilePhotoView { <init>(...); }
+
+# view AndroidManifest.xml #generated:210
+-keep class com.tencent.weibo.webview.OAuthV1AuthorizeWebView { <init>(...); }
+
+# view AndroidManifest.xml #generated:116
+-keep class com.ztspeech.simutalk2.dictionary.activity.ChildCategroyActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:150
+-keep class com.ztspeech.simutalk2.dictionary.activity.CollectedWordsActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:145
+-keep class com.ztspeech.simutalk2.dictionary.activity.KouyiRecordActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:140
+-keep class com.ztspeech.simutalk2.dictionary.activity.ResultActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:131
+-keep class com.ztspeech.simutalk2.dictionary.activity.SearchActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:155
+-keep class com.ztspeech.simutalk2.dictionary.activity.SettingActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:179
+-keep class com.ztspeech.simutalk2.dictionary.activity.SettingTTSspeedActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:127
+-keep class com.ztspeech.simutalk2.dictionary.activity.ShowWhiteBordActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:205
+-keep class com.ztspeech.simutalk2.dictionary.activity.SkinActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:135
+-keep class com.ztspeech.simutalk2.dictionary.activity.WordsActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:121
+-keep class com.ztspeech.simutalk2.dictionary.activity.WordsAutoCompletedActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:94
+-keep class com.ztspeech.simutalk2.qa.AskQuestionActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:51
+-keep class com.ztspeech.simutalk2.qa.FindUserActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:89
+-keep class com.ztspeech.simutalk2.qa.FriendActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:100
+-keep class com.ztspeech.simutalk2.qa.GetQuestionActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:77
+-keep class com.ztspeech.simutalk2.qa.InteractionActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:21
+-keep class com.ztspeech.simutalk2.qa.Location { <init>(...); }
+
+# view AndroidManifest.xml #generated:26
+-keep class com.ztspeech.simutalk2.qa.MainActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:45
+-keep class com.ztspeech.simutalk2.qa.MainTabActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:111
+-keep class com.ztspeech.simutalk2.qa.MessageActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:81
+-keep class com.ztspeech.simutalk2.qa.MsgGroupListActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:36
+-keep class com.ztspeech.simutalk2.qa.MsgService { <init>(...); }
+
+# view AndroidManifest.xml #generated:106
+-keep class com.ztspeech.simutalk2.qa.SolveQuestionActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:85
+-keep class com.ztspeech.simutalk2.qa.UserStateActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:71
+-keep class com.ztspeech.simutalk2.qa.WaitingActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:220
+-keep class com.ztspeech.simutalk2.qa.message.ProcessService { <init>(...); }
+
+# view AndroidManifest.xml #generated:190
+-keep class com.ztspeech.simutalk2.trans.AboutActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:61
+-keep class com.ztspeech.simutalk2.trans.HelpActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:56
+-keep class com.ztspeech.simutalk2.trans.InterpretActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:66
+-keep class com.ztspeech.simutalk2.trans.LoginActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:195
+-keep class com.ztspeech.simutalk2.trans.SetFrontSizeActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:159
+-keep class com.ztspeech.simutalk2.trans.SetHeadProtraitActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:164
+-keep class com.ztspeech.simutalk2.trans.SetNickNameActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:169
+-keep class com.ztspeech.simutalk2.trans.SetTranslanguageActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:174
+-keep class com.ztspeech.simutalk2.trans.SetTtsSoundActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:200
+-keep class com.ztspeech.simutalk2.trans.SetWeiboCountBinderActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:185
+-keep class com.ztspeech.simutalk2.trans.UserPropose { <init>(...); }
+
+# view AndroidManifest.xml #generated:215
+-keep class com.ztspeech.simutalk2.weibo.EditContent { <init>(...); }
+
+# view AndroidManifest.xml #generated:241
+-keep class com.ztspeech.simutalk2.weixinchat.AppRegister { <init>(...); }
+
+# view AndroidManifest.xml #generated:232
+-keep class com.ztspeech.simutalk2.weixinchat.WchatActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:226
+-keep class com.ztspeech.simutalk2.wxapi.WXEntryActivity { <init>(...); }
+
+# view res/layout/renren_sdk_create_album.xml #generated:31
+# view res/layout/renren_sdk_status_pub.xml #generated:23
+# view res/layout/renren_sdk_upload_photo.xml #generated:29
+-keep class com.ztspeech.weibo.sdk.renren.ProfilePhotoView { <init>(...); }
+
+# onClick res/layout/setting_user_nickname.xml #generated:31
+-keepclassmembers class * { *** saveNickName(...); }
+
+# onClick res/layout/setting_front_size.xml #generated:49
+# onClick res/layout/setting_trans_language.xml #generated:42
+# onClick res/layout/setting_tts_sound.xml #generated:42
+-keepclassmembers class * { *** savelanguage(...); }
+
+# onClick res/layout/head_protrait.xml #generated:39
+# onClick res/layout/head_protrait.xml #generated:7
+-keepclassmembers class * { *** selectImage(...); }
+

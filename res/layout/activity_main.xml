@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" 
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/main_top"
+        android:layout_weight="170"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/btnClose"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:background="@drawable/main_top_close"/>
+
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+	    android:orientation="vertical" 
+	    android:layout_weight="247">
+
+	    <LinearLayout
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+		    android:orientation="horizontal" 
+		    android:layout_weight="100">
+		    <LinearLayout
+		        android:layout_width="wrap_content"
+		        android:layout_height="fill_parent"
+		        android:layout_weight="58"
+		        android:background="@drawable/main_speech_left"/>		    
+        	<Button
+		        android:id="@+id/btnSeppechTrans"
+		        android:layout_width="wrap_content"
+		        android:layout_height="fill_parent"
+		        android:layout_weight="204"
+		        android:background="@drawable/main_btn_trans"/>
+		    <LinearLayout
+		        android:layout_width="wrap_content"
+		        android:layout_height="fill_parent"
+		        android:layout_weight="58"
+		        android:background="@drawable/main_speech_right"/>        	
+		</LinearLayout>
+	    
+	    <LinearLayout
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+		    android:orientation="horizontal" 
+		    android:layout_weight="48">
+		    <LinearLayout
+		        android:layout_width="wrap_content"
+		        android:layout_height="fill_parent"
+		        android:layout_weight="58"
+		        android:background="@drawable/main_qa_left"/>		    
+	    	    
+		    <Button
+		        android:id="@+id/btnQA"
+		        android:layout_width="wrap_content"
+		        android:layout_height="fill_parent"
+		        android:layout_weight="204"
+			    android:background="@drawable/main_btn_qa" />    
+		    <LinearLayout
+		        android:layout_width="wrap_content"
+		        android:layout_height="fill_parent"
+		        android:layout_weight="58"
+		        android:background="@drawable/main_qa_right"/>        	
+		</LinearLayout>	
+	    <LinearLayout
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+		    android:orientation="horizontal" 
+		    android:layout_weight="72">
+		    <LinearLayout
+		        android:layout_width="wrap_content"
+		        android:layout_height="fill_parent"
+		        android:layout_weight="58"
+		        android:background="@drawable/main_library_left"/>		    
+	    		
+		    <Button
+		        android:id="@+id/btnLibrary"
+		        android:layout_width="wrap_content"
+		        android:layout_height="fill_parent"
+		        android:layout_weight="204"
+		        android:background="@drawable/main_btn_lib"/>
+		    <LinearLayout
+		        android:layout_width="wrap_content"
+		        android:layout_height="fill_parent"
+		        android:layout_weight="58"
+		        android:background="@drawable/main_library_right"/>        	
+		</LinearLayout>        
+    </LinearLayout>
+ 
+         
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" 
+         android:layout_weight="42">
+
+        <Button
+            android:id="@+id/btnHelp"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_weight="114"
+            android:background="@drawable/main_btn_help"/>
+
+        <Button
+            android:id="@+id/btnShare"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_weight="92"
+            android:background="@drawable/main_btn_share"/>
+
+        <Button
+            android:id="@+id/btnSettings"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_weight="125"
+			android:background="@drawable/main_btn_settings" />        
+    </LinearLayout>
+        
+</LinearLayout>

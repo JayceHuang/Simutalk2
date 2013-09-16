@@ -1,0 +1,39 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" >
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        
+         >
+
+        <Button
+            android:id="@+id/btnChineseToEnglish"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+
+            android:background="@drawable/trans_bottorm_button_xiala_chtoen"
+ />
+
+        <Button
+            android:id="@+id/btnEnglishToChinese"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/btnChineseToEnglish"
+            android:layout_alignLeft="@+id/btnChineseToEnglish"
+            android:background="@drawable/trans_bottorm_button_xiala_entoch"
+ />
+
+        <Button
+            android:id="@+id/btnLetter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/btnEnglishToChinese"
+            android:layout_alignLeft="@+id/btnEnglishToChinese"
+            android:background="@drawable/trans_bottorm_button_xiala_letter"
+ />
+    </RelativeLayout>
+
+</RelativeLayout>

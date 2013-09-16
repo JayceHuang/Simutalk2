@@ -1,0 +1,59 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentRight="true" >
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <Button
+            android:id="@+id/btnGood"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/trans_pop01_button_good"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+             />
+
+        <Button
+            android:id="@+id/btnBad"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/trans_pop01_button_bad"
+            android:layout_alignBaseline="@+id/btnGood"
+            android:layout_alignBottom="@+id/btnGood"
+            android:layout_toRightOf="@+id/btnGood"
+             />
+
+        <Button
+            android:id="@+id/btnCopy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/trans_pop01_button_copy"
+            android:layout_alignBaseline="@+id/btnBad"
+            android:layout_alignBottom="@+id/btnBad"
+            android:layout_toRightOf="@+id/btnBad"
+             />
+
+        <Button
+            android:id="@+id/btnFull"
+            android:background="@drawable/trans_pop01_button_more"
+            android:visibility="gone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/btnCopy"
+            android:layout_toRightOf="@+id/btnCopy"
+             />
+
+        <Button
+            android:id="@+id/btnMore"
+            android:background="@drawable/trans_pop01_button_more"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/btnFull"
+            android:layout_toRightOf="@+id/btnFull"
+             />
+    </RelativeLayout>
+
+</RelativeLayout>

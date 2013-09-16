@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TabHost xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@android:id/tabhost"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <TabWidget
+        android:id="@android:id/tabs"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp" >
+    </TabWidget>
+
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <FrameLayout
+            android:id="@android:id/tabcontent"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_gravity="top"
+            android:layout_marginTop="48dp"
+            android:layout_weight="1" >
+
+            <LinearLayout
+                android:id="@+id/tab1"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent" 
+                android:orientation="horizontal">
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/tab2"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent" 
+                android:orientation="horizontal">
+            </LinearLayout>
+        </FrameLayout>
+
+        <RelativeLayout
+            android:id="@+id/linearLayoutTab"
+            android:layout_width="fill_parent"
+            android:layout_height="60dp"
+            android:background="@null" >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:gravity="center"
+                android:orientation="horizontal" >
+
+                <ImageButton
+                    android:id="@+id/btnTrans"
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/trans_top_01_bg"
+                    android:gravity="center"
+                    android:src="@drawable/trans_top_01_button"
+                    android:textColor="@color/tab_btn_text" />
+
+                <ImageButton
+                    android:id="@+id/btnQA"
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/trans_top_02_bg"
+                    android:gravity="center"
+                    android:src="@drawable/trans_top_02_button"
+                    android:textColor="@color/tab_btn_text" />
+
+                <ImageButton
+                    android:id="@+id/btnLib"
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/trans_top_03_bg"
+                    android:gravity="center"
+                    android:src="@drawable/trans_top_03_button"
+                    android:textColor="@color/tab_btn_text" />
+
+                <ImageButton
+                    android:id="@+id/btnSettings"
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="0.55"
+                    android:background="@drawable/trans_top_04_bg"
+                    android:gravity="center"
+                    android:src="@drawable/trans_top_04_button"
+                    android:textColor="@color/tab_btn_text" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/tvTaskCountTmp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_alignParentTop="true"
+                android:background="@drawable/qa_you_pop_99"
+                android:gravity="top"
+                android:paddingLeft="7dp"
+                android:paddingTop="0dp"
+                android:text="5"
+                android:textColor="@color/tab_btn_text"
+                android:visibility="invisible" />
+
+            <TextView
+                android:id="@+id/tvTaskCount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="-10dp"
+                android:layout_toRightOf="@id/tvTaskCountTmp"
+                android:background="@drawable/qa_you_pop_99"
+                android:gravity="top"
+                android:paddingLeft="7dp"
+                android:paddingTop="0dp"
+                android:text="5"
+                android:textColor="@color/qa_pop_message_text_count"
+                android:textSize="17dp"
+                android:textStyle="bold" />
+        </RelativeLayout>
+    </FrameLayout>
+
+</TabHost>

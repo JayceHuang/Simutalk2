@@ -1,0 +1,488 @@
+com.baidu.location.Jni:
+    Jni()
+com.baidu.location.LocationClient:
+    private static final java.lang.String for
+    private static final int try
+    private static final int p
+    private static final int void
+    private static final int B
+    private static final int m
+    private static final int o
+    private static final int h
+    private static final int b
+    private static final int f
+    private static final int if
+    private static final int y
+    private static final int n
+    private static final int goto
+    private static final int s
+com.baidu.location.a:
+    public void if()
+com.baidu.location.a$a:
+    public void a()
+com.baidu.location.b:
+    private static final java.lang.String if
+    private static final int q
+    private static final int x
+    private static final int n
+    private static final int goto
+    private static final double else
+    private static final int l
+    private static final int h
+    private static final int z
+    private static final int t
+    private static final int K
+    private static final int i
+    private static final int E
+    private static final int void
+    public java.lang.String try()
+com.baidu.location.c:
+    public java.lang.String int()
+    public java.lang.String for()
+com.baidu.location.d
+com.baidu.location.e:
+    private static final int byte
+com.baidu.location.f:
+    static final float an
+    static final int l
+    static final int c
+    static final int long
+    static final int af
+    static final int g
+    static final int Y
+    static final int for
+    static final int s
+    static final int w
+    static final int U
+    static final int H
+    static final int K
+    static final int do
+    static final int int
+    static final int p
+    static final int case
+    static final int ae
+    static final int z
+    static final int F
+    static final int ap
+    static final int S
+    static final int i
+    static final int ai
+    static final int C
+    static final int ao
+    static final int L
+    static final int b
+    static final int J
+    static final int e
+    static final int void
+    static final int T
+    static final int t
+    static final int am
+    static final int Q
+    static final int x
+    static final int else
+    static final int ag
+    private static final int ar
+    private static final int byte
+    private static final int ad
+com.baidu.location.g:
+    private static final int byte
+    private static final int case
+    public static final int m
+    private static final int h
+    g()
+    public static boolean for(android.content.Context)
+com.baidu.location.h
+com.baidu.location.h$a
+com.baidu.location.j:
+    j()
+    static java.lang.String if()
+    public static void if(java.lang.String)
+    public static void do(java.lang.String)
+com.baidu.location.j$a:
+    private static final boolean a
+com.baidu.location.j$b:
+    private static final java.lang.String if
+    private static final java.lang.String do
+    private static final java.lang.String for
+    private static final java.lang.String a
+com.baidu.location.k:
+    k()
+com.google.gson.DefaultDateTypeAdapter:
+    53:54:DefaultDateTypeAdapter(int)
+com.google.gson.FieldAttributes:
+    146:146:java.lang.Object get(java.lang.Object)
+    155:155:boolean isSynthetic()
+com.google.gson.Gson:
+    static final boolean DEFAULT_JSON_NON_EXECUTABLE
+    private static final java.lang.String JSON_NON_EXECUTABLE_PREFIX
+com.google.gson.internal.Excluder:
+    private static final double IGNORE_VERSIONS
+com.google.gson.internal.StringMap:
+    private static final int MINIMUM_CAPACITY
+    private static final int MAXIMUM_CAPACITY
+com.google.gson.internal.bind.TypeAdapters$23:
+    private static final java.lang.String YEAR
+    private static final java.lang.String MONTH
+    private static final java.lang.String DAY_OF_MONTH
+    private static final java.lang.String HOUR_OF_DAY
+    private static final java.lang.String MINUTE
+    private static final java.lang.String SECOND
+com.google.gson.stream.JsonReader:
+    private static final java.lang.String TRUE
+    private static final java.lang.String FALSE
+com.tencent.mm.sdk.channel.package-info
+com.tencent.mm.sdk.contact.package-info
+com.tencent.mm.sdk.conversation.package-info
+com.tencent.mm.sdk.openapi.package-info
+com.tencent.mm.sdk.package-info
+com.tencent.mm.sdk.platformtools.LogHelper:
+    private LogHelper()
+com.tencent.mm.sdk.platformtools.package-info
+com.tencent.mm.sdk.plugin.package-info
+com.tencent.mm.sdk.storage.CursorFieldHelper:
+    public static void keep_setBlob(java.lang.reflect.Field,java.lang.Object,android.database.Cursor,int)
+    public static void keep_getBlob(java.lang.reflect.Field,java.lang.Object,android.content.ContentValues)
+    public static void keep_setShort(java.lang.reflect.Field,java.lang.Object,android.database.Cursor,int)
+    public static void keep_getShort(java.lang.reflect.Field,java.lang.Object,android.content.ContentValues)
+    public static void keep_setBoolean(java.lang.reflect.Field,java.lang.Object,android.database.Cursor,int)
+    public static void keep_getBoolean(java.lang.reflect.Field,java.lang.Object,android.content.ContentValues)
+    public static void keep_setInt(java.lang.reflect.Field,java.lang.Object,android.database.Cursor,int)
+    public static void keep_getInt(java.lang.reflect.Field,java.lang.Object,android.content.ContentValues)
+    public static void keep_setFloat(java.lang.reflect.Field,java.lang.Object,android.database.Cursor,int)
+    public static void keep_getFloat(java.lang.reflect.Field,java.lang.Object,android.content.ContentValues)
+    public static void keep_setDouble(java.lang.reflect.Field,java.lang.Object,android.database.Cursor,int)
+    public static void keep_getDouble(java.lang.reflect.Field,java.lang.Object,android.content.ContentValues)
+    public static void keep_setLong(java.lang.reflect.Field,java.lang.Object,android.database.Cursor,int)
+    public static void keep_getLong(java.lang.reflect.Field,java.lang.Object,android.content.ContentValues)
+    public static void keep_setString(java.lang.reflect.Field,java.lang.Object,android.database.Cursor,int)
+    public static void keep_getString(java.lang.reflect.Field,java.lang.Object,android.content.ContentValues)
+com.tencent.mm.sdk.storage.package-info
+com.tencent.weibo.oauthv1.OAuthV1Client:
+    private static final java.lang.String hashAlgorithmName
+com.tencent.weibo.webview.OAuthV1AuthorizeWebView:
+    private static final java.lang.String TAG
+com.ztspeech.simutalk2.data.DoStream:
+    private static final int READ_BUFFER
+com.ztspeech.simutalk2.data.TransDataBase:
+    75:80:private void initUserDatabase()
+com.ztspeech.simutalk2.data.TransDataList:
+    private static final java.lang.String TABLE_NAME
+com.ztspeech.simutalk2.dictionary.activity.CollectedWordsActivity:
+    168:173:private void btnDispProcess(boolean)
+com.ztspeech.simutalk2.dictionary.activity.KouyiRecordActivity:
+    168:173:private void btnDispProcess(boolean)
+com.ztspeech.simutalk2.dictionary.activity.ResultActivity:
+    160:165:private void btnDispProcess(boolean)
+com.ztspeech.simutalk2.dictionary.activity.SettingTTSspeedActivity:
+    private static final int MIN_COUNT_NUM
+    private static final int DIV_COUNT_NUM
+com.ztspeech.simutalk2.dictionary.activity.WordsAutoCompletedActivity:
+    123:128:private void btnDispProcess(boolean)
+com.ztspeech.simutalk2.dictionary.adapter.CollectedLvItem1:
+    private com.ztspeech.simutalk2.dictionary.entity.Child child
+com.ztspeech.simutalk2.dictionary.adapter.KouyiRecordLvItem1:
+    private com.ztspeech.simutalk2.dictionary.entity.Child child
+com.ztspeech.simutalk2.dictionary.adapter.WordsLvItem1:
+    private com.ztspeech.simutalk2.dictionary.entity.Child child
+com.ztspeech.simutalk2.dictionary.util.LogInfo:
+    private static final java.lang.String TAG
+    private static final boolean isDebug
+com.ztspeech.simutalk2.net.AsyncHttpDownloader:
+    140:149:private java.io.InputStream getInputStream(java.lang.String)
+com.ztspeech.simutalk2.net.ImageEngine:
+    private static final java.lang.String SCALE
+com.ztspeech.simutalk2.net.VoiceDataCache$VoiceData
+com.ztspeech.simutalk2.qa.AskQuestionActivity:
+    163:168:private void btnDispProcess(boolean)
+    348:348:private void setButtonsEnabled(boolean)
+com.ztspeech.simutalk2.qa.FindUserActivity:
+    161:166:private void btnDispProcess(boolean)
+com.ztspeech.simutalk2.qa.MainActivity:
+    private static com.ztspeech.simutalk2.data.TransDataBase mDatabase
+com.ztspeech.simutalk2.qa.MessageActivity:
+    private static final int DO_ASK
+    private static final int DO_SOLVE
+    private static final int DO_MSG
+    private static final int GET_LASTMSG
+com.ztspeech.simutalk2.qa.MsgGroupListActivity:
+    private static final int ACTIVITY_MESSAGE
+    497:541:private void selectDo()
+    88:88:static synthetic boolean access$18(com.ztspeech.simutalk2.qa.MsgGroupListActivity)
+com.ztspeech.simutalk2.qa.MsgGroupListActivity$9
+com.ztspeech.simutalk2.qa.SolveQuestionActivity:
+    private static final int ACTIVITY_SOLVE
+    196:201:private void btnDispProcess(boolean)
+com.ztspeech.simutalk2.qa.UserStateActivity:
+    private static final int ACTIVITY_ASK
+    private static final int ACTIVITY_SOLVE
+com.ztspeech.simutalk2.qa.view.InterpretView:
+    private android.graphics.drawable.AnimationDrawable noVoiceAnimation
+com.ztspeech.simutalk2.trans.InterpretActivity:
+    1131:1159:private void play(com.ztspeech.simutalk2.trans.speak.SpeakItemData,boolean)
+    1434:1439:private void btnDispProcess(boolean)
+    1442:1450:private void btnCancelDisp(boolean)
+com.ztspeech.simutalk2.trans.SetFrontSizeActivity:
+    private static final java.lang.String TAG
+com.ztspeech.simutalk2.trans.SetHeadProtraitActivity:
+    private static final java.lang.String TAG
+    private static final java.lang.String MIME_TYPE_IMAGE_PNG
+    private static final int PHOTOS_FROM_CAMERA
+    private static final int PHOTOS_FROM_IMAGE
+    private static final int PHOTOS_RESULt_HANDLE
+    363:391:private java.lang.String saveImg(android.graphics.Bitmap)
+com.ztspeech.simutalk2.trans.SetNickNameActivity:
+    private static final java.lang.String TAG
+com.ztspeech.simutalk2.trans.SetTranslanguageActivity:
+    private static final java.lang.String TAG
+com.ztspeech.simutalk2.trans.SetTtsSoundActivity:
+    private static final java.lang.String TAG
+com.ztspeech.simutalk2.trans.SetWeiboCountBinderActivity:
+    private static final java.lang.String TAG
+com.ztspeech.simutalk2.trans.UserPropose:
+    152:157:private void btnDispProcess(boolean)
+    307:309:private void hideViewInput(android.view.View)
+com.ztspeech.simutalk2.trans.speak.SpeakItemData:
+    private static final long serialVersionUID
+com.ztspeech.simutalk2.trans.speak.SpeakView:
+    private android.widget.TextView mtvFlag
+com.ztspeech.simutalk2.weibo.IRenren:
+    private static final java.lang.String API_KEY
+    private static final java.lang.String SECRET_KEY
+    private static final java.lang.String APP_ID
+com.ztspeech.simutalk2.weibo.IRenren$StatusSetListener
+com.ztspeech.simutalk2.weibo.IRenren$StatusSetListener$1
+com.ztspeech.simutalk2.weibo.IRenren$StatusSetListener$2
+com.ztspeech.simutalk2.weibo.IRenren$StatusSetListener$3
+com.ztspeech.simutalk2.weibo.IRenren$StatusSetListener$4
+com.ztspeech.simutalk2.weibo.Ikaixin:
+    private static final java.lang.String API_KEY
+    private static final java.lang.String SECRET_KEY
+    private static final java.lang.String APP_ID
+    private static final int LOGINERROR
+    private android.app.ProgressDialog progress
+com.ztspeech.simutalk2.weibo.PostRecordTask:
+    private static final java.lang.String TAG
+    private static final java.lang.String RESTAPI_INTERFACE_POSTRECORD
+com.ztspeech.simutalk2.weibo.TencentWeiboDialog:
+    private static final java.lang.String DIALOG_LOADING
+    private com.ztspeech.weibo.sdk.kaixin.KaixinDialogListener mListener
+com.ztspeech.simutalk2.weixinchat.InterpretView2:
+    private android.graphics.drawable.AnimationDrawable noVoiceAnimation
+com.ztspeech.simutalk2.weixinchat.WchatActivity:
+    private com.ztspeech.simutalk2.net.PostPackageEngine mPostPackageEngine
+    161:166:private void btnDispProcess(boolean)
+com.ztspeech.weibo.sdk.android.Weibo:
+    private static final java.lang.String WEIBO_SDK_VERSION
+com.ztspeech.weibo.sdk.android.WeiboDialog:
+    private static final java.lang.String DIALOG_LOADING
+    private static final java.lang.String TAG
+com.ztspeech.weibo.sdk.android.WeiboDialogError:
+    23:23:int getErrorCode()
+    32:32:java.lang.String getFailingUrl()
+com.ztspeech.weibo.sdk.android.api.AccountAPI:
+    private static final java.lang.String SERVER_URL_PRIX
+com.ztspeech.weibo.sdk.android.api.CommentsAPI:
+    private static final java.lang.String SERVER_URL_PRIX
+com.ztspeech.weibo.sdk.android.api.CommonAPI:
+    private static final java.lang.String SERVER_URL_PRIX
+com.ztspeech.weibo.sdk.android.api.FavoritesAPI:
+    private static final java.lang.String SERVER_URL_PRIX
+com.ztspeech.weibo.sdk.android.api.FriendshipsAPI:
+    private static final java.lang.String SERVER_URL_PRIX
+com.ztspeech.weibo.sdk.android.api.PlaceAPI:
+    private static final java.lang.String SERVER_URL_PRIX
+com.ztspeech.weibo.sdk.android.api.RegisterAPI:
+    private static final java.lang.String SERVER_URL_PRIX
+com.ztspeech.weibo.sdk.android.api.SearchAPI:
+    private static final java.lang.String SERVER_URL_PRIX
+com.ztspeech.weibo.sdk.android.api.ShortUrlAPI:
+    private static final java.lang.String SERVER_URL_PRIX
+com.ztspeech.weibo.sdk.android.api.StatusesAPI:
+    private static final java.lang.String SERVER_URL_PRIX
+com.ztspeech.weibo.sdk.android.api.SuggestionsAPI:
+    private static final java.lang.String SERVER_URL_PRIX
+com.ztspeech.weibo.sdk.android.api.TagsAPI:
+    private static final java.lang.String SERVER_URL_PRIX
+com.ztspeech.weibo.sdk.android.api.TrendsAPI:
+    private static final java.lang.String SERVER_URL_PRIX
+com.ztspeech.weibo.sdk.android.api.UsersAPI:
+    private static final java.lang.String SERVER_URL_PRIX
+com.ztspeech.weibo.sdk.android.net.HttpManager:
+    private static final java.lang.String MULTIPART_FORM_DATA
+    private static final java.lang.String HTTPMETHOD_POST
+    private static final int SET_CONNECTION_TIMEOUT
+    private static final int SET_SOCKET_TIMEOUT
+com.ztspeech.weibo.sdk.kaixin.Kaixin:
+    private static final java.lang.String KX_AUTHORIZE_URL
+    private static final java.lang.String OAUTH_VERSION
+    private static final java.lang.String SESSION_KEY
+    private static final java.lang.String ACCESS_TOKEN
+    private static final java.lang.String REFRESH_TOKEN
+    private static final java.lang.String EXPIRES_IN
+    private static final java.lang.String ACCESS_DENIED
+    private static final java.lang.String LOGIN_DENIED
+    private static final java.lang.String KAIXIN_SDK_STORAGE
+    private static final java.lang.String KAIXIN_SDK_STORAGE_ACCESS_TOKEN
+    private static final java.lang.String KAIXIN_SDK_STORAGE_REFRESH_TOKEN
+    private static final java.lang.String KAIXIN_SDK_STORAGE_EXPIRES
+    private static final long ONE_HOUR
+com.ztspeech.weibo.sdk.kaixin.KaixinDialog:
+    private static final java.lang.String DIALOG_LOADING
+com.ztspeech.weibo.sdk.kaixin.Util:
+    private static final int UPLOAD_BUFFER_SIZE
+com.ztspeech.weibo.sdk.renren.AccessTokenManager:
+    private static final java.lang.String SESSION_KEY_URL
+    private static final java.lang.String RENREN_SDK_CONFIG
+    private static final java.lang.String RENREN_SDK_CONFIG_PROP_ACCESS_TOKEN
+    private static final java.lang.String RENREN_SDK_CONFIG_PROP_SESSION_KEY
+    private static final java.lang.String RENREN_SDK_CONFIG_PROP_SESSION_SECRET
+    private static final java.lang.String RENREN_SDK_CONFIG_PROP_CREATE_TIME
+    private static final java.lang.String RENREN_SDK_CONFIG_PROP_SESSION_CREATE_TIME
+    private static final java.lang.String RENREN_SDK_CONFIG_PROP_EXPIRE_SECONDS
+    private static final java.lang.String RENREN_SDK_CONFIG_PROP_USER_ID
+    private static final java.lang.String KEY_ACCESS_TOKEN
+    private static final java.lang.String KEY_SESSION_KEY
+    private static final java.lang.String KEY_SESSION_SECRET
+    private static final java.lang.String KEY_UID
+    private static final java.lang.String KEY_SESSION_KEY_EXPIRE_TIME
+    private static final long ONE_HOUR
+    126:127:public void setContext(android.content.Context)
+com.ztspeech.weibo.sdk.renren.AuthorizationHelper:
+    private static final java.lang.String PERMISSIONS
+    private static final java.lang.String KEY_RESPONSE_TYPE
+    private static final java.lang.String AUTH_ERROR
+    private static final java.lang.String AUTH_COMPLETE
+    private static final java.lang.String AUTH_CANCEL_LOGIN
+    private static final java.lang.String AUTH_CANCEL
+    private static final java.lang.String KEY_AUTH_ERROR
+    private static final java.lang.String KEY_AUTH_ERROR_DESCRIPTION
+    private static final java.lang.String KEY_AUTH_ERROR_URI
+    private static final java.lang.String KEY_RESPONSE_BUNDLE
+    private static final java.lang.String ACTION
+com.ztspeech.weibo.sdk.renren.AuthorizationHelper$BlockActivity:
+    private static final java.lang.String KEY_PARCEL_RENREN
+com.ztspeech.weibo.sdk.renren.PasswordFlowHelper:
+    private static final java.lang.String PASSWORD_FLOW_URL
+com.ztspeech.weibo.sdk.renren.PasswordFlowHelper$LoginEntryDialog:
+    166:168:public PasswordFlowHelper$LoginEntryDialog(com.ztspeech.weibo.sdk.renren.PasswordFlowHelper,android.content.Context)
+com.ztspeech.weibo.sdk.renren.Renren:
+    private static final java.lang.String SIGNATURE
+    private static final java.lang.String LOG_TAG
+    private static final java.lang.String POST_FEED_URL
+    private static final java.lang.String RESTSERVER_URL
+    private static final java.lang.String KEY_API_KEY
+    private static final java.lang.String KEY_SECRET
+    private static final java.lang.String KEY_APP_ID
+    private static final java.lang.String LOG_TAG_REQUEST
+    private static final java.lang.String LOG_TAG_RESPONSE
+    private static final java.lang.String DIALOG_ROOT
+com.ztspeech.weibo.sdk.renren.RenrenListenerFactory:
+    23:23:RenrenListenerFactory()
+com.ztspeech.weibo.sdk.renren.SSO:
+    private static final java.lang.String LOG_TAG
+    private static final java.lang.String RR_APP_SIGNATURE
+com.ztspeech.weibo.sdk.renren.feed.FeedHelper:
+    private static final java.lang.String RESPONSE
+com.ztspeech.weibo.sdk.renren.feed.FeedPublishRequestParam:
+    private static final java.lang.String METHOD
+    private static final int NAME_MAX_LENGTH
+    private static final int DESCRIPTION_MAX_LENGTH
+    private static final int WIDGET_DESCRIPTION_MAX_LENGTH
+    private static final int CAPTION_MAX_LENGTH
+    private static final int ACTION_NAME_MAX_LENGTH
+    private static final int MESSAGE_MAX_LENGTH
+    private static final int WIDGET_MESSAGE_MAX_LENGTH
+com.ztspeech.weibo.sdk.renren.friends.FriendsGetFriendsRequestParam:
+    private static final java.lang.String METHOD
+com.ztspeech.weibo.sdk.renren.friends.FriendsGetFriendsResponseBean$Friend:
+    private static final java.lang.String KEY_UID
+    private static final java.lang.String KEY_NAME
+    private static final java.lang.String KEY_HEADURL
+    private static final java.lang.String KEY_HEADURL_WITH_LOGO
+    private static final java.lang.String KEY_TINYURL_WITH_LOGO
+com.ztspeech.weibo.sdk.renren.friends.FriendsGetRequestParam:
+    private static final java.lang.String METHOD
+com.ztspeech.weibo.sdk.renren.pay.bean.AppState:
+    39:42:AppState(int,java.lang.String)
+com.ztspeech.weibo.sdk.renren.pay.util.PayStoreHelper:
+    private static final int DATABASE_VERSION
+    private static final java.lang.String DATABASE_NAME
+    private static final java.lang.String TABLE_NAME
+    private static final java.lang.String CREATE_TABLE_SQL
+com.ztspeech.weibo.sdk.renren.pay.view.PayRepaiListAdapter$RepairListItem:
+    103:104:public void setOrderNumber(java.lang.String)
+    111:112:public void setOrderDes(java.lang.String)
+    119:120:public void setOrderBid(java.lang.String)
+    127:128:public void setOrderAmount(java.lang.String)
+    135:136:public void setOrderStatus(java.lang.String)
+    143:144:public void setOrderTime(java.lang.String)
+com.ztspeech.weibo.sdk.renren.photos.AlbumBean:
+    private static final java.lang.String KEY_AID
+    private static final java.lang.String KEY_URL
+    private static final java.lang.String KEY_UID
+    private static final java.lang.String KEY_NAME
+    private static final java.lang.String KEY_CREATE_TIME
+    private static final java.lang.String KEY_UPDATE_TIME
+    private static final java.lang.String KEY_DESCRIPTION
+    private static final java.lang.String KEY_LOCATION
+    private static final java.lang.String KEY_SIZE
+    private static final java.lang.String KEY_VISIBLE
+    private static final java.lang.String KEY_COMMENT_COUNT
+    private static final java.lang.String KEY_TYPE
+    private static final java.lang.String KEY_PHOTOS
+com.ztspeech.weibo.sdk.renren.photos.AlbumCreateRequestParam:
+    private static final java.lang.String METHOD
+com.ztspeech.weibo.sdk.renren.photos.AlbumCreateResponseBean:
+    private static final java.lang.String KEY_AID
+com.ztspeech.weibo.sdk.renren.photos.AlbumGetRequestParam:
+    private static final java.lang.String METHOD
+com.ztspeech.weibo.sdk.renren.photos.CreateAlbumActivity:
+    private static final int DATA_COMPLETE
+    private static final int DATA_ERROR
+    private static final int DATA_FAULT
+com.ztspeech.weibo.sdk.renren.photos.PhotoBean:
+    private static final java.lang.String KEY_PID
+    private static final java.lang.String KEY_FILE_NAME
+    private static final java.lang.String KEY_AID
+    private static final java.lang.String KEY_UID
+    private static final java.lang.String KEY_CAPTION
+    private static final java.lang.String KEY_CREATE_TIME
+    private static final java.lang.String KEY_VIEW_COUNT
+    private static final java.lang.String KEY_COMMENT_COUNT
+    private static final java.lang.String KEY_URL_TINY
+    private static final java.lang.String KEY_URL_HEAD
+    private static final java.lang.String KEY_URL_LARGE
+    private static final java.lang.String KEY_URL_MAIN
+    private static final java.lang.String KEY_CONTENT
+com.ztspeech.weibo.sdk.renren.photos.PhotoUploadRequestParam:
+    private static final java.lang.String METHOD
+com.ztspeech.weibo.sdk.renren.photos.PhotoUploadResponseBean:
+    private static final java.lang.String KEY_PID
+    private static final java.lang.String KEY_AID
+    private static final java.lang.String KEY_UID
+    private static final java.lang.String KEY_SRC
+    private static final java.lang.String KEY_SRC_SMALL
+    private static final java.lang.String KEY_SRC_BIG
+    private static final java.lang.String KEY_CAPTION
+com.ztspeech.weibo.sdk.renren.photos.UploadPhotoActivity:
+    private static final int DATA_COMPLETE
+    private static final int DATA_ERROR
+    private static final int DATA_FAULT
+    private static final java.lang.String ERROR_MSG
+    android.widget.TextView photoAidValue
+com.ztspeech.weibo.sdk.renren.status.StatusPubActivity:
+    private static final int PROGRESS_DIALOG
+com.ztspeech.weibo.sdk.renren.status.StatusSetRequestParam:
+    private static final java.lang.String METHOD
+com.ztspeech.weibo.sdk.renren.status.StatusSetResponseBean:
+    private static final java.lang.String RESULT
+com.ztspeech.weibo.sdk.renren.users.UsersGetInfoRequestParam:
+    private static final java.lang.String METHOD
+com.ztspeech.weibo.sdk.renren.view.ProfileNameView:
+    private static final int ANIM_DURATION
+com.ztspeech.weibo.sdk.renren.view.ProfilePhotoView:
+    private static final java.lang.String IMG_URL_PREFIX
+com.ztspeech.weibo.sdk.renren.view.RenrenDialog:
+    private static final java.lang.String LOG_TAG
+    private static final int RENREN_BLUE
+    private static final java.lang.String CODE_AUTH_CANCEL

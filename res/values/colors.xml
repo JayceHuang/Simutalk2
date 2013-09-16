@@ -1,0 +1,11 @@
+
+    <resources>
+        <color name="white">#ffffff</color>
+        <color name="eeeeee">#eeeeee</color>
+        <color name="tab_btn_text_focused_true">#FFdddddd</color>
+        <color name="tab_btn_text_focused_false">#FFFFFFFF</color>
+        <color name="qa_pop_message_text_count">#FFFFFFFF</color>
+        <color name="item_focused_false">#000000</color>
+        <color name="item_focused_true">#666666</color>
+        <color name="background_light_black">#aa000000</color>
+    </resources>

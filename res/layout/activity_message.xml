@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"   
+    android:background="@drawable/trans_cen_bg"  >
+
+   <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="60dp"
+        android:background="@drawable/qa_top_bg">
+
+        <TextView
+            android:id="@+id/tvMessageTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity = "center"
+            android:layout_marginBottom="5dip"
+            android:background="@drawable/qa_top_button_02"/>
+        
+       <LinearLayout
+           android:layout_width="wrap_content"
+           android:layout_gravity="left"
+           android:layout_height="fill_parent" >
+      
+           <Button
+	           android:id="@+id/btnReturn"
+		       android:layout_width="wrap_content"
+		       android:layout_height="wrap_content"
+		       android:layout_gravity="center"
+		       android:layout_marginBottom="3dip"
+	           android:background="@drawable/qa_top_button_tui"/>
+		</LinearLayout>	 
+		
+		<LinearLayout
+            android:layout_width="wrap_content"           
+            android:layout_height="fill_parent" 
+            android:layout_marginBottom="8dp"  
+            android:layout_gravity="right" >
+           
+	        <Button
+	            android:id="@+id/btnAddFriend"
+	            android:layout_width="80dp"
+	            android:layout_height="30dp"
+	            android:layout_marginRight="10dp"
+	            android:layout_marginBottom="1dip"
+	            android:layout_gravity="center"
+	            android:background="@drawable/qa_button_add_friend"
+	            android:textColor="#FFFFFFFF"
+	            android:textStyle="bold"
+	        	android:visibility="invisible" />
+        </LinearLayout>
+    </FrameLayout>
+    	       
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"   
+        android:layout_marginTop="-10dp"
+        android:layout_weight="1" 
+	    android:orientation="vertical">
+	    <ListView
+	        android:id="@+id/lvQuestion"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:cacheColorHint="#00000000"	
+			android:dividerHeight="0dp"
+			android:stackFromBottom="false" 
+	        android:layout_weight="1" >
+	    </ListView>
+    			    
+	   <LinearLayout
+	        android:id="@+id/layoutSender"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content" 
+	        android:background="@drawable/qa_view_bottom_bar_2">
+			
+			<LinearLayout 
+			android:id="@+id/lll"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:orientation="horizontal">
+		    <Button
+	       	    android:id="@+id/btnSpeak"
+	       	    android:layout_width="wrap_content"
+	       	    android:layout_height="fill_parent"
+	       	    android:layout_marginTop="0dip"
+	       	    android:background="@drawable/qa_btn_input_voice"/>
+			 <Button
+	       	    android:id="@+id/btnChOrEn"
+	       	    android:layout_width="wrap_content"
+	       	    android:layout_height="wrap_content"
+	       	    android:layout_marginBottom="0dip"
+	       	    android:textColor="#FFFFFFFF"
+	       	    android:textSize="17sp"
+	       	    android:gravity="center"
+	       	    android:background="@drawable/qa_btn_z_f"/>
+			    
+			    
+			</LinearLayout>	
+	        
+	        <EditText
+	            android:id="@+id/editMsg"
+	            android:layout_width="fill_parent"
+	            android:layout_height="fill_parent"
+	            android:hint="@string/voice_input_hint"
+	            android:background="@drawable/trans_bottorm_button_translation01"	            
+	            android:layout_marginTop="6dp"
+	            android:layout_marginBottom="3dp"
+	            android:layout_weight="1"
+	            android:maxLength="50"
+	            android:singleLine="true" />
+	
+  			<LinearLayout 
+	        	android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:orientation="vertical">
+			    <Button
+			        android:id="@+id/btnSend"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:layout_marginTop="0dp"
+			        android:layout_gravity="top"
+			        android:textColor= "#FFFFFFFF"
+			        android:background="@drawable/qa_msg_btn_send"/>	
+		    </LinearLayout>	  
+	    </LinearLayout>
+	 </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,207 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/weibo_editcontent" >
+
+    <FrameLayout
+        android:id="@+id/frame_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/qa_view_title_bar" >
+
+        <TextView
+            android:id="@+id/tvQuestionTitle"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:gravity="center"
+            android:layout_marginBottom="5dip"
+            android:text="@string/qa_ask_title"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="#FFFFFFFF"
+            android:textSize="20dp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_gravity="right"
+            android:layout_marginRight="5dp" >
+
+            <Button
+                android:id="@+id/btn_msg_info_detail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:visibility="invisible" />
+        </LinearLayout>
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/frame_layout"
+        android:layout_marginTop="-5dp"
+        android:text="@string/qa_ask_input_tip"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="#FF000000"
+        android:visibility="gone"
+        android:textSize="20dp" />
+
+    <LinearLayout
+        android:id="@+id/layoutSender"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView1"
+        android:layout_marginLeft="3dp"
+        android:layout_marginRight="3dp"
+        android:background="@drawable/qa_view_bottom_bar"
+        android:paddingLeft="3dip" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="1dip"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/btnSpeak"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:background="@drawable/qa_btn_input_voice" />
+
+            <Button
+                android:id="@+id/btnChOrEn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dip"
+                android:layout_marginTop="-5dip"
+                android:background="@drawable/qa_btn_z_f"
+                android:gravity="center"
+                android:textColor="#FFFFFFFF"
+                android:textSize="17sp" />
+        </LinearLayout>
+
+        <FrameLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginRight="3dp"
+            android:layout_marginTop="5dp"
+            android:layout_weight="1" >
+
+            <EditText
+                android:id="@+id/editMsg"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:gravity="top"
+                android:background="@drawable/qa_ci_search_bg3"
+                android:hint="@string/voice_input_hint"
+                android:layout_marginBottom="5dip"
+                android:lines="3"
+                android:maxLines="3"
+                android:singleLine="false" >
+            </EditText>
+        </FrameLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/button_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dip"
+        android:layout_below="@id/layoutSender"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:paddingBottom="10dp" >
+
+        <Button
+            android:id="@+id/btnSend"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/com_button"
+            android:text="@string/qa_ask_btn_post"
+            android:textSize="18sp"
+            android:textColor="#FFFFFFFF" />
+
+        <Button
+            android:id="@+id/btnCancel"
+            android:layout_width="80dp"
+            android:textSize="18sp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:background="@drawable/com_button"
+            android:text="@string/qa_ask_btn_cancel"
+            android:textColor="#FFFFFFFF" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/record_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/button_layout"
+        android:layout_below="@id/layoutSender"
+        android:layout_gravity="center"
+        android:layout_marginTop="-10dp"
+        android:background="@drawable/trans_bottorm_bg"
+        android:visibility="gone" >
+
+        <Button
+            android:id="@+id/btn_cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/trans_bottorm_button_01"
+            android:textColor="#FFFFFFFF"
+            android:textSize="18dp"
+            android:visibility="visible" />
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:layout_centerVertical="true"
+            android:layout_marginBottom="-8dp"
+            android:layout_toLeftOf="@id/btn_cancel" >
+
+            <ImageButton
+                android:id="@+id/btn_bg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true" />
+
+            <ImageButton
+                android:id="@+id/btn_record"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:background="@drawable/trans_bottorm_button_speak" />
+
+            <ImageView
+                android:id="@+id/imageviewanim"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:background="@drawable/recognizer_wait_anim"
+                android:visibility="gone" />
+
+            <ImageView
+                android:id="@+id/imagenovoiceanim"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:background="@drawable/bottorm_button_recording4"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/text_status"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:text="@string/trans_btn_record"
+                android:textColor="@android:color/white"
+                android:visibility="gone" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+</RelativeLayout>

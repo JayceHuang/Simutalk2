@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android"
+    android:oneshot="false">
+    <item android:drawable="@drawable/trans_bottorm_button_wait1" android:duration="300" />
+    <item android:drawable="@drawable/trans_bottorm_button_wait2" android:duration="300" />
+    <item android:drawable="@drawable/trans_bottorm_button_wait3" android:duration="300" />
+    <item android:drawable="@drawable/trans_bottorm_button_wait4" android:duration="300" />
+    <item android:drawable="@drawable/trans_bottorm_button_wait5" android:duration="300" />
+    <item android:drawable="@drawable/trans_bottorm_button_wait6" android:duration="300" />
+    <item android:drawable="@drawable/trans_bottorm_button_wait7" android:duration="300" />
+    <item android:drawable="@drawable/trans_bottorm_button_wait8" android:duration="300" />
+    <item android:drawable="@drawable/trans_bottorm_button_wait9" android:duration="300" />
+    <item android:drawable="@drawable/trans_bottorm_button_wait10" android:duration="300" />
+    <item android:drawable="@drawable/trans_bottorm_button_wait11" android:duration="300" />
+    <item android:drawable="@drawable/trans_bottorm_button_wait12" android:duration="300" />
+</animation-list>

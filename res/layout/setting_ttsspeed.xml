@@ -1,0 +1,91 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/trans_cen_bg" >
+
+    <TextView
+        android:id="@+id/tvText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:text="TTS语速设置:"
+        android:textColor="#000000"
+        android:textSize="17sp" />
+
+    <TextView
+        android:id="@+id/tvShow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvText"
+        android:layout_centerHorizontal="true"
+        android:textColor="#000000"
+        android:textSize="17sp" />
+
+    <RelativeLayout
+        android:id="@+id/TTSSeekBarLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvShow"
+        android:layout_marginTop="10dip" >
+
+        <TextView android:id="@+id/slow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:gravity="center"
+            android:layout_centerVertical="true"
+            android:text="慢"
+            android:textColor="#000000"
+            android:textSize="17sp" />
+
+        <TextView android:id="@+id/fast"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:text="快"
+            android:textColor="#000000"
+            android:textSize="17sp" />
+        <SeekBar
+            android:id="@+id/sbTTSspeed"
+            android:thumb="@drawable/my_seek_thumb"
+            android:layout_width="fill_parent"
+            android:layout_height="30dp"
+            android:layout_toRightOf="@id/slow"
+            android:layout_toLeftOf="@id/fast"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="10dp"
+			android:layout_marginRight="10dp" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/TTSSeekBarLayout"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dip"
+        android:orientation="horizontal" 
+        android:visibility="gone">
+
+        <Button
+            android:id="@+id/btnSure"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/trans_btn_binder"
+            android:text="确定"
+            android:textColor="#ffffff" />
+
+        <Button
+            android:id="@+id/btnCancle"
+            android:layout_width="120dip"
+            android:layout_height="40dip"
+            android:layout_marginLeft="20dip"
+            android:background="@drawable/trans_btn_binder"
+            android:text="取消"
+            android:visibility="gone" />
+    </LinearLayout>
+
+</RelativeLayout>

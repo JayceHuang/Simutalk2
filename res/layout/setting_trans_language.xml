@@ -1,0 +1,56 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" 
+    android:background="@drawable/trans_cen_bg">
+
+    <TextView
+        android:id="@+id/select_language"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:text="请选择语言："
+        android:textColor="#000000"
+        android:textSize="16sp" />
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/select_language"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp" >
+
+        <RadioButton
+            android:id="@+id/radioC2E"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="中->英"
+            android:textColor="#000000"
+            android:textSize="16sp" />
+
+        <RadioButton
+            android:id="@+id/radioE2C"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="英->中"
+            android:textColor="#000000"
+            android:textSize="16sp" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/saveBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_below="@id/radioGroup"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/trans_btn_binder"
+        android:layout_centerHorizontal="true"
+        android:textColor="#ffffff"
+        android:onClick="savelanguage"
+        android:text="@string/OK_Txt"
+        android:visibility="gone"
+        android:textSize="16sp" />
+
+</RelativeLayout>

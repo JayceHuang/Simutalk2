@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/trans_cen_bg" >
+
+    <RelativeLayout
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center" 
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp">
+
+        <Button
+            android:id="@+id/sina_count"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/com_button"
+            android:text="@string/sina_binder"
+            android:padding="8dip"
+            android:textSize="17sp"
+            android:textColor="#ffffff"/>
+
+        <TextView
+            android:id="@+id/sina_count_msg"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/sina_count"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:text="@string/sina_binder"
+            android:textSize="18sp"
+            android:visibility="gone" 
+            />
+
+        <Button
+            android:id="@+id/tencent_count"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/sina_count_msg"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="25dp"
+            android:background="@drawable/com_button"
+            android:text="@string/tencent_binder"
+            android:padding="8dip"
+            android:textSize="17sp"
+            android:textColor="#ffffff" />
+
+        <TextView
+            android:id="@+id/tencent_count_msg"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tencent_count"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:text="@string/tencent_binder"
+            android:textSize="18sp"
+            android:visibility="gone" />
+
+        <Button
+            android:id="@+id/renren_count"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tencent_count_msg"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="25dp"
+            android:background="@drawable/com_button"
+            android:text="@string/renren_binder" 
+            android:padding="8dip"
+            android:textSize="17sp"
+            android:textColor="#ffffff"/>
+
+        <TextView
+            android:id="@+id/renren_count_msg"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/renren_count"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:text="@string/renren_binder"
+            android:textSize="18sp"
+            android:visibility="gone" />
+        
+        <Button
+            android:id="@+id/kaixin_count"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/renren_count_msg"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="25dp"
+            android:background="@drawable/com_button"
+            android:text="@string/kaixin_binder"
+            android:padding="8dip"
+            android:textSize="17sp"
+            android:textColor="#ffffff"/>
+
+        <TextView
+            android:id="@+id/kaixin_count_msg"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/kaixin_count"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:text="@string/kaixin_binder"
+            android:textSize="18sp"
+            android:visibility="gone" />
+    </RelativeLayout>
+</RelativeLayout>

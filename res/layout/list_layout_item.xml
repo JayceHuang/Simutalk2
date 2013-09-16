@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+     android:layout_height="37dp"
+    android:layout_marginBottom="0dp"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="37dp">
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_centerInParent="true" >
+
+            <TextView
+                android:id="@+id/smsname"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:layout_centerInParent="true"
+                android:layout_marginLeft="10dp"
+                android:gravity="center"
+                android:singleLine="true"
+                android:textColor="#000000"
+                android:textSize="18sp" >
+            </TextView>
+            <TextView
+                android:id="@+id/smsnumber"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="20dp"
+                android:layout_toRightOf="@id/smsname"
+                android:gravity="center"
+                android:textColor="#000000"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:visibility="gone" />
+        </RelativeLayout>
+    </RelativeLayout>
+    
+  	<TextView
+           android:id="@+id/tvLine"
+           android:layout_width="fill_parent"
+           android:layout_height="1dp"
+ 
+           android:gravity="center" >
+    </TextView>
+<!--           android:background="@drawable/trans_pop_duoxuanyi_bg_line" -->      
+</LinearLayout>

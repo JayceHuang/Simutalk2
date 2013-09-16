@@ -1,0 +1,27 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_gravity="center"    
+    android:layout_centerInParent="true"
+    android:layout_height="wrap_content" >
+
+    <RelativeLayout
+            android:layout_width="254dip"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:background="@drawable/trans_pop_more_bg" >
+
+            <GridView
+                android:id="@+id/gdv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:listSelector="#00000000"
+                android:horizontalSpacing="0dip"
+                android:verticalSpacing="0dip"
+                android:numColumns="3" >
+            </GridView>
+        </RelativeLayout>
+
+
+</RelativeLayout>

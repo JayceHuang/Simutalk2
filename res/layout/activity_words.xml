@@ -1,0 +1,98 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <LinearLayout
+        android:id="@+id/linearLayout_focus"
+        android:layout_width="0px"
+        android:layout_height="0px"
+        android:focusable="true"
+        android:focusableInTouchMode="true" />
+
+    <RelativeLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="50dip"
+        android:layout_marginTop="2dip"
+        android:gravity="center"
+        android:paddingLeft="10dip"
+        android:paddingRight="10dip" >
+
+        <EditText
+            android:id="@+id/edtInputWords"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/qa_ci_search_bg2"
+            android:paddingLeft="25dip"
+            android:paddingRight="100dip"
+            android:singleLine="true" >
+        </EditText>
+
+        <Button
+            android:id="@+id/btnSearch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/edtInputWords"
+            android:layout_alignRight="@+id/edtInputWords"
+            android:layout_alignTop="@+id/edtInputWords"
+            android:background="@drawable/no2_buttonsearch"
+            android:text="" />
+
+        <Button
+            android:id="@+id/btnLuyin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/edtInputWords"
+            android:layout_alignTop="@+id/edtInputWords"
+            android:layout_marginRight="10dip"
+            android:layout_toLeftOf="@+id/btnSearch"
+            android:background="@drawable/no2_btnluyin"
+            android:text="" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/tvNoResult"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="150dip"
+        android:text="text"
+        android:textSize="18sp" />
+    
+    <ListView
+        android:id="@+id/lvInputRecord"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:visibility="gone"
+        android:layout_below="@+id/linearLayout1"
+        android:layout_marginTop="2dip"
+        android:cacheColorHint="#00000000"
+        android:divider="@drawable/no2_listview_divider" >
+    </ListView>
+    
+    <ListView
+        android:id="@+id/lvSimple"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:visibility="gone"
+        android:layout_below="@+id/linearLayout1"
+        android:layout_marginTop="2dip"
+        android:cacheColorHint="#00000000"
+        android:divider="@drawable/no2_listview_divider" >
+    </ListView>
+    
+    <ListView
+        android:id="@+id/lvCategroy"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:visibility="gone"
+        android:dividerHeight="0dip"
+        android:layout_below="@+id/linearLayout1"
+        android:layout_marginTop="2dip"
+        android:cacheColorHint="#00000000"
+        android:divider="@drawable/no2_listview_divider" >
+    </ListView>
+
+</RelativeLayout>

@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TabHost xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@android:id/tabhost"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <TabWidget
+        android:id="@android:id/tabs"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp" >
+    </TabWidget>
+
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <FrameLayout
+            android:id="@android:id/tabcontent"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_gravity="bottom"
+            android:layout_marginBottom="40dp"
+            android:layout_weight="1" >
+
+            <LinearLayout
+                android:id="@+id/tab1"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent" >
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/tab2"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent" >
+            </LinearLayout>
+        </FrameLayout>
+
+        <RelativeLayout
+            android:id="@+id/linearLayoutTab"
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:layout_gravity="bottom" >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:gravity="center"
+                android:orientation="horizontal" >
+
+                <ImageButton
+                    android:id="@+id/btnQA"
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/qa_tab_btn_1"
+                    android:src="@drawable/qa_tab_btn_1_top" />
+
+                <ImageButton
+                    android:id="@+id/btnUser"
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/qa_tab_btn_2"
+                    android:src="@drawable/qa_tab_btn_2_top" />
+
+                <ImageButton
+                    android:id="@+id/btnLinkman"
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/qa_tab_btn_3"
+                    android:src="@drawable/qa_tab_btn_3_top" />
+            </LinearLayout>
+
+            <ImageButton
+                android:id="@+id/btnQATmp"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:background="@drawable/qa_tab_btn_1"
+                android:layout_alignParentLeft="true"
+                android:src="@drawable/qa_tab_btn_1_top" 
+                android:visibility="invisible"/>
+            <ImageButton
+                android:id="@+id/btnUserTmp"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:layout_centerInParent="true"
+                android:background="@drawable/qa_tab_btn_2"
+                android:src="@drawable/qa_tab_btn_2_top"
+                android:visibility="invisible"/>
+
+            <TextView
+                android:id="@+id/tvFriendNewsCount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:background="@drawable/qa_you_pop_99"
+                android:gravity="top"
+                android:paddingLeft="7dp"
+                android:paddingTop="0dp"
+                android:text="5"
+                android:textColor="@color/qa_pop_message_text_count"
+                android:textSize="17dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvTaskCount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_toRightOf="@+id/btnUserTmp"
+                android:layout_marginLeft="-15dp"
+                android:background="@drawable/qa_you_pop_99"
+                android:gravity="top"
+                android:paddingLeft="7dp"
+                android:paddingTop="0dp"
+                android:text="5"
+                android:textColor="@color/qa_pop_message_text_count"
+                android:textSize="17dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvQANewsCount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_toRightOf="@+id/btnQATmp"
+                android:layout_marginLeft="-15dp"
+                android:background="@drawable/qa_you_pop_99"
+                android:gravity="top"
+                android:paddingLeft="7dp"
+                android:paddingTop="0dp"
+                android:text="5"
+                android:textColor="@color/qa_pop_message_text_count"
+                android:textSize="17dp"
+                android:textStyle="bold" />
+        </RelativeLayout>
+    </FrameLayout>
+
+</TabHost>

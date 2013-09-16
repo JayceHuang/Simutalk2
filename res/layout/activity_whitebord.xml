@@ -1,0 +1,65 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true" >
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" >
+
+            <TextView
+                android:id="@+id/tvEnglish"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="60dp"
+                android:paddingLeft="30dip"
+                android:paddingRight="30dip"
+                android:gravity="center"
+                android:text="Medium Text"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/tvChinese"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tvEnglish"
+                android:layout_marginTop="15dp"
+                android:paddingLeft="30dip"
+                android:paddingRight="30dip"
+                android:gravity="center"
+                android:text="Medium Text"
+                android:textSize="25sp" />
+        </RelativeLayout>
+    </ScrollView>
+
+    <ImageButton
+        android:id="@+id/ibClose"
+        android:background="@drawable/no2_whiteboard_close"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_weight="1"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dip" />
+    <ImageButton
+        android:id="@+id/ibSpeak"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_weight="1"
+        android:layout_marginBottom="20dp"
+        android:layout_marginRight="20dip"
+        android:src="@drawable/no2_speak" />
+</RelativeLayout>
